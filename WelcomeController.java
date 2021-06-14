@@ -19,6 +19,7 @@ public class WelcomeController {
 
 	private static final String welcomemsg = "Welcome Mr. %s!";
 
+	//modification
     @GetMapping("/welcome/user")
     @ResponseBody
     public Welcome welcomeUser(@RequestParam(name="name",required = false) String name) {
